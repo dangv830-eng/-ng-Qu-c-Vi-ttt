@@ -1,0 +1,210 @@
+﻿using System;
+
+class BankAccount
+{
+   
+    private static long _nextAccountNumber = 1000000001;
+
+  
+    public long AccountNumber { get; init; }
+
+    
+    private string _accountHolder = "";
+
+    public string AccountHolder
+    {
+        get
+        {
+            return _accountHolder;
+        }
+        set
+        {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                throw new ArgumentException(
+                    "Tên chủ tài khoản không được để trống!"
+                );
+            }
+
+            _accountHolder = value;
+        }
+    }
+
+    
+    private decimal _balance;
+
+    public decimal Balance
+    {
+        get
+        {
+            return _balance;
+        }
+    }
+
+    
+    public BankAccount(string accountHolder, decimal initialBalance)
+    {
+     
+        if (initialBalance < 50000)
+        {
+            throw new ArgumentException(
+                "Số dư ban đầu phải từ 50.000 VNĐ trở lên!"
+            );
+        }
+
+     
+        AccountNumber = _nextAccountNumber++;
+
+        AccountHolder = accountHolder;
+        _balance = initialBalance;
+    }
+
+  
+    public void Deposit(decimal amount)
+    {
+        if (amount <= 0)
+        {
+            throw new ArgumentException(
+                "Số tiền nạp phải lớn hơn 0!"
+            );
+        }
+
+        _balance += amount;
+    }
+
+ 
+    public bool Withdraw(decimal amount)
+    {
+      
+        if (amount <= 0)
+        {
+            return false;
+        }
+        if (_balance - amount < 50000)
+        {
+            return false;
+        }
+
+        _balance -= amount;
+
+        return true;
+    }
+
+    public void DisplayInfo()
+    {
+        Console.WriteLine("Số tài khoản: " + AccountNumber);
+        Console.WriteLine("Chủ tài khoản: " + AccountHolder);
+        Console.WriteLine("Số dư: " + Balance.ToString("N0") + " VNĐ");
+    }
+}
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+    
+        BankAccount account1 = new BankAccount(
+            "Nguyễn Văn A",
+            1000000
+        );
+
+        BankAccount account2 = new BankAccount(
+            "Trần Thị B",
+            2000000
+        );
+
+        Console.WriteLine("   TÀI KHOẢN 1   ");
+        account1.DisplayInfo();
+
+        Console.WriteLine();
+
+        Console.WriteLine("   TÀI KHOẢN 2   ");
+        account2.DisplayInfo();
+
+
+
+        Console.WriteLine();
+        Console.WriteLine("    KIỂM TRA TÀI KHOẢN KHÔNG HỢP LỆ    ");
+
+        try
+        {
+            BankAccount account3 = new BankAccount(
+                "Lê Văn C",
+                30000
+            );
+        }
+        catch (ArgumentException ex)
+        {
+            Console.WriteLine("Lỗi: " + ex.Message);
+        }
+
+
+      
+
+        Console.WriteLine();
+        Console.WriteLine("    NẠP TIỀN    ");
+
+        account1.Deposit(500000);
+
+        Console.WriteLine("Đã nạp 500.000 VNĐ vào tài khoản 1.");
+        Console.WriteLine(
+            "Số dư hiện tại: " +
+            account1.Balance.ToString("N0") +
+            " VNĐ"
+        );
+
+
+      
+
+        Console.WriteLine();
+        Console.WriteLine("    RÚT TIỀN HỢP LỆ    ");
+
+        if (account1.Withdraw(200000))
+        {
+            Console.WriteLine("Rút 200.000 VNĐ thành công!");
+        }
+        else
+        {
+            Console.WriteLine("Rút tiền thất bại!");
+        }
+
+        Console.WriteLine(
+            "Số dư hiện tại: " +
+            account1.Balance.ToString("N0") +
+            " VNĐ"
+        );
+
+
+      
+
+        Console.WriteLine();
+        Console.WriteLine("    RÚT TIỀN VƯỢT QUÁ HẠN MỨC    ");
+
+        if (account1.Withdraw(1300000))
+        {
+            Console.WriteLine("Rút 1.300.000 VNĐ thành công!");
+        }
+        else
+        {
+            Console.WriteLine(
+                "Rút 1.300.000 VNĐ thất bại!"
+            );
+
+            Console.WriteLine(
+                "Lý do: Số dư sau khi rút không được thấp hơn 50.000 VNĐ."
+            );
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("    THÔNG TIN CUỐI CÙNG    ");
+
+        account1.DisplayInfo();
+
+        Console.WriteLine();
+        Console.WriteLine("Nhấn phím bất kỳ để kết thúc...");
+        Console.ReadKey();
+    }
+}
