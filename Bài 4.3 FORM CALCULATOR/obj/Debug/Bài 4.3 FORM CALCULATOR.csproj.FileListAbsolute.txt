@@ -1,0 +1,10 @@
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\obj\Debug\Bài 4.3 FORM CALCULATOR.csproj.AssemblyReference.cache
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\obj\Debug\Bài_4._3_FORM_CALCULATOR.Properties.Resources.resources
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\obj\Debug\Bài 4.3 FORM CALCULATOR.csproj.GenerateResource.cache
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\obj\Debug\Bài 4.3 FORM CALCULATOR.csproj.CoreCompileInputs.cache
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\bin\Debug\Bài 4.3 FORM CALCULATOR.exe.config
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\bin\Debug\Bài 4.3 FORM CALCULATOR.exe
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\bin\Debug\Bài 4.3 FORM CALCULATOR.pdb
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\obj\Debug\Bài_4._3_FORM_CALCULATOR.Form1.resources
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\obj\Debug\Bài 4.3 FORM CALCULATOR.exe
+D:\Project\C#\Bài 4.3 FORM CALCULATOR\Bài 4.3 FORM CALCULATOR\obj\Debug\Bài 4.3 FORM CALCULATOR.pdb
