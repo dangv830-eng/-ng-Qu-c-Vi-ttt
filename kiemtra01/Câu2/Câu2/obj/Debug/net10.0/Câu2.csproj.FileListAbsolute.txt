@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\bin\Debug\net10.0\Câu2.exe
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\bin\Debug\net10.0\Câu2.deps.json
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\bin\Debug\net10.0\Câu2.runtimeconfig.json
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\bin\Debug\net10.0\Câu2.dll
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\bin\Debug\net10.0\Câu2.pdb
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\Câu2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\Câu2.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\Câu2.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\Câu2.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\Câu2.dll
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\refint\Câu2.dll
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\Câu2.pdb
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\Câu2.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\ref\Câu2.dll
+C:\Users\ADMIN\Desktop\kiemtra01\Câu2\Câu2\obj\Debug\net10.0\Câu2.csproj.Up2Date
