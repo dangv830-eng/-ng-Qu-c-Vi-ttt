@@ -1,0 +1,9 @@
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\bin\Debug\bt4.exe.config
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\bin\Debug\bt4.exe
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\bin\Debug\bt4.pdb
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\obj\Debug\bt4.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\obj\Debug\bt4.Properties.Resources.resources
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\obj\Debug\bt4.csproj.GenerateResource.cache
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\obj\Debug\bt4.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\obj\Debug\bt4.exe
+C:\Users\ACER\Documents\lập trình.net\baitap1410\bt4\bt4\obj\Debug\bt4.pdb
